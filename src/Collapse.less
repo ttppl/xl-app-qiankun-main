@@ -1,0 +1,22 @@
+.collapse {
+  transition: height 1s ease-in-out;
+  overflow: hidden;
+}
+.collapseIconContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .label {
+    font-size: 0.7rem;
+    color: grey;
+    margin-right: 10px;
+  }
+  .collapseIcon {
+    transition: all 1s ease-in-out;
+    display: inline-block;
+  }
+}
+
+.iconOpen {
+  transform: rotate(180deg);
+}
